@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CodEaisy.TinySaas.Auth</AssemblyName>
+    <Title>CodEaisy.TinySaas.Auth</Title>
+    <PackageTags>saas;authz</PackageTags>
+    <Description>A set of authentication helpers for TinySaas</Description>
+    <Authors>Mubarak Imam</Authors>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodEaisy.TinySaas\CodEaisy.TinySaas.csproj" PrivateAssets="all"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Core" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization.Policy" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
+  </ItemGroup>
+
+</Project>
